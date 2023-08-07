@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Logos\Disney.ico" />
+    <None Remove="Logos\Netflix.ico" />
+    <None Remove="Logos\Peacock.ico" />
+    <None Remove="Logos\Prime-Logo.ico" />
+    <None Remove="Logos\Starz.png" />
+    <None Remove="Logos\YouTube-TV.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1988-prerelease" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="22.2.7" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="22.2.7" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="22.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Logos\Disney.ico" />
+    <Resource Include="Logos\Netflix.ico" />
+    <Resource Include="Logos\Peacock.ico" />
+    <Resource Include="Logos\Prime-Logo.ico" />
+    <Resource Include="Logos\Starz.png" />
+    <Resource Include="Logos\YouTube-TV.ico" />
+  </ItemGroup>
+
+</Project>
