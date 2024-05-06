@@ -1,8 +1,8 @@
 # From https://janjones.me/posts/clickonce-installer-build-publish-github/.
 
-[CmdletBinding(PositionalBinding=$false)]
+[CmdletBinding(PositionalBinding = $false)]
 param (
-    [switch]$OnlyBuild=$false
+    [switch]$OnlyBuild = $false
 )
 
 $appName = "AppViewer"
